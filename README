@@ -1,0 +1,3 @@
+This gem is intended to be the thinnest possible wrapper for the Facebook API. It makes communication with the Facebook API simple by handling the signing of request parameters with a secret key and deserializing the output.
+
+Note that this means that everything else is up to you. SimpleFacebook does not track your session for you, initialize itself from a config file (you must initialize it yourself), or provide any other niceties which would be expected for, say, a Rails app. It is best suited for use as a utility for asynchronous tasks, requesting information from Facebook which does not rely on a session, and other situations in which a full-blown application stack would be overkill.
