@@ -10,5 +10,5 @@ spec = Gem::Specification.new do |s|
   s.author = "Chris Vincent"
   s.email = "c.j.vincent@gmail.com"
   s.add_dependency('active_support', '>= 2.2.2')
-  s.add_dependency('json', '>= 1.1.6')
+  s.add_dependency('json_pure', '>= 1.1.6')
 end
