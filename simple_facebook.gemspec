@@ -9,6 +9,6 @@ spec = Gem::Specification.new do |s|
   s.has_rdoc = false
   s.author = "Chris Vincent"
   s.email = "c.j.vincent@gmail.com"
-  s.add_dependency('active_support', '>= 2.2.2')
+  s.add_dependency('activesupport', '>= 2.2.2')
   s.add_dependency('json_pure', '>= 1.1.6')
 end
